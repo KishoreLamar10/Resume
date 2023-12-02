@@ -1,0 +1,65 @@
+html{
+    background-color: beige;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 0.5px;  
+  border: 10px solid black;   
+}
+.heading{
+    margin-bottom: -10px;
+    margin-top: -0px;
+    color: crimson;
+    font-family: 'Dhurjati', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.head{
+    text-align: center;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+.body{
+    color:blue;
+    margin-top: -0px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Vina Sans', sans-serif;
+}
+.mini{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Smooch', cursive;
+}
+
+.micro{
+    color: green;
+}
+ol{
+    margin: -0px;
+}
+li{
+    margin: -20px;
+}
+
+#clickme{
+    background-color: black;
+}
+#clickpicture{
+    padding: 1px;  
+    border: 3px solid red;  
+    margin-left: 200px;
+    text-align: center;
+    max-width: 50%;  
+}
+#click{
+    color: bisque;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dhurjati', sans-serif;
+}
