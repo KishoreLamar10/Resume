@@ -1,120 +1,75 @@
-@media (max-width:600px){
-    .main-body{
-        background-color: darkseagreen;
-    }
-    .click-body{
-        background-color: brown;
-    }
-
-    .click-body> p> a {
-        height: 100px;
-        width: 100px;
-        left: 50%;
-    }
-
-    .click-body> #clickpicture {
-        border-color: bisque;
-        position: relative;
-        right: 100px;
-    }
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+}
+div{
+    display: block;
+}
+.top-container{
+    position: relative;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 136);
+}
+.middle-container{
+    padding: 50px;
+    width: 100%;
+    background-color: rgb(110, 252, 174);
+}
+.bottom-container{
+    display: block;
+    padding: 40px;
+    width: 100%;
+    background-color: beige;
 }
 
-.main-body{
-    background-color: skyblue;
-}
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  padding: 0.5px;  
-  border: 5px solid black;   
-}
-.heading{
-    margin-bottom: -10px;
-    margin-top: -0px;
-    color: rgb(0, 0, 0);
-    font-family: 'Dhurjati', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: -20px;
-}
-.head{
-    text-align: center;
-    font-family: 'Hedvig Letters Serif', serif;
-}
-.body{
-    color:blue;
-    margin-top: -0px;
-    text-align: center;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 30px;
-    font-family: 'Vina Sans', sans-serif;
-}
-.mini{
-    text-align: left;
-    font-size: 20px;
-    font-family: 'Smooch', cursive;
-    font-weight: bold;
-    margin: 20px;
-}
-
-.micro{
-    color: rgb(255, 255, 255);
-}
-ol{
-    margin: -0px;
-}
-li{
-    margin: -20px;
-}
-
-#clickme{
-    background-color: black;
-}
-#clickpicture{
-    padding: 1px;  
-    border: 3px solid red;  
-    margin-left: 200px;
-    text-align: center;
-    max-width: 50%;  
-}
-.click{
-    color: bisque;
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Vina Sans', sans-serif;
-}
-.container{
+.button{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    width: 100px;
 }
-.box1{
-    border: 5px solid;
-    padding: 5px;
-    background-color: coral;
+.imgs{
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    
 }
-.box2{
-    border: 5px solid;
-    padding: 5px;
-    background-color: darkkhaki;
+.span{
+    font-family: "Marcellus SC", serif;
+    font-weight: 400;
+    font-style: normal;
 }
-.box3{
-    border: 5px solid;
-    padding: 5px;
-    background-color: goldenrod;
+.heading1{
+    font-size: 60px;
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 600;
+    font-style: normal;
 }
-p > a{
-    font-size: 30px;
-    font-family: 'Vina Sans', sans-serif;
-    color: rgb(10, 24, 230);
+.heading2{
+    font-size: 60px;
+    font-family: "Rubik Distressed", system-ui;
+    font-weight: 550;
+    font-style: normal;
 }
-.new-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    gap: 3px;
+.heading3{
+    font-size: 50px;
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.headers{
+    font-size: 40px;
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+} 
+.content{
+    font-size: 20px;
+    font-family: "Akaya Telivigala", system-ui;
+    font-weight: 600;
+    font-style: normal;
 }
